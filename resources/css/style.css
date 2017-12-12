@@ -42,15 +42,16 @@ a:hover {
     text-decoration: none;
     line-height: 60px;
     padding: 0 30px;
-    
 }
-
+.left-menu ul li:last-child:hover a {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;   
+}
 .top-menu { 
     overflow: hidden;
     text-align: center;
     height: 60px;
     width: 100%;
-    border-radius: 10px;
     margin-bottom: 30px;
 }
 
@@ -80,7 +81,6 @@ a:hover {
 
 .left-menu {
     float: left;
-    border-radius: 10px;
 }
 
 .header-menu {
@@ -108,7 +108,7 @@ a:hover {
     margin-right: 30px;
     margin-top: 12px;
     text-align: center;
-    background-color: #11A8AB;
+    background-color: #149C9C;
     border-radius: 10px;
     height: 25px;
     width: 35px;    
@@ -119,7 +119,6 @@ a:hover {
 }
 .profile-box {
     float: left;
-    border-radius: 10px;
     margin: 0 30px;
 }
 
@@ -153,7 +152,6 @@ a:hover {
     float: left;
     width: 33.3333%;
     height: 60px;
-    margin-bottom: 10px;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -172,6 +170,7 @@ a:hover {
 
 .statistics a:nth-child(1):hover {
     background-color: #e2cc4a;
+    border-bottom-left-radius: 10px;
 }
 
 .statistics a:nth-child(2) {
@@ -190,11 +189,11 @@ a:hover {
 
 .statistics a:nth-child(3):hover {
     background-color: #b53645;
+    border-bottom-right-radius: 10px;
 }
 
 .newsletter-box {
     float: left;
-    border-radius: 15px;
     padding: 25px 20px;
 }
 
