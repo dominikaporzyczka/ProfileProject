@@ -225,5 +225,8 @@ a:hover {
     margin: 0 auto;
     border: none;
     cursor: pointer;
+}
 
+.newsletter-box button:active {
+    background-color: #149C9C;
 }
