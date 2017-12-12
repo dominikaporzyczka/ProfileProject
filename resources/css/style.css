@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f253d;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+#container {
+    width: 900px;
+    margin: 50px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    background-color: #11A8AB;
+}
+
+.box-style {
+    border-radius: 10px;
+    background-color: #394264;
+}
+
+.top-menu-element {
+    float: left;
+}
+
+.top-menu-element a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 30px;
+    
+}
+
+.top-menu { 
+    overflow: hidden;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.user-menu {
+    float: right;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.user-menu a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;    
+    padding: 0 30px;
+}
+
+.user-menu img{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 4px solid #5E6EA1;
+    background-color: #fff;
+    margin: 10px 0 10px 15px;
+}
+
+.main-content >div {
+    width: 280px;
+}
+
+.left-menu {
+    float: left;
+    border-radius: 10px;
+}
+
+.left-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.profile-box {
+    float: left;
+    border-radius: 10px;
+    margin: 0 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.profile-box img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #5E6EA1;
+    background-color: #fff;
+}
+
+.newsletter-box {
+    float: left;
+    border-radius: 15px;
+}
